@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
-body {
+* {
     margin: 0%;
     padding: 0%;
+}
+:root {
+    
+}
+
+body {
+    min-height: 100vh;
 }
 header {
     background-color: #000000de;
@@ -11,28 +18,11 @@ header h1 {
     color: white;
 }
 header p {
-    color: white;
-}
-#conteinerq1 {
-    position: relative;
-    background-image: url(imagens/background001.jpg);
-    height: 96vh;
 
-}
-#conteudoq1 {
-    position: absolute;
-    background-color: blueviolet;
-    height: 550px;
-    width: 500px;
-    padding: 10px;
-
-
+    background-color: aquamarine;
 }
 
-#conteinerq2 {
-    position: relative;
-    background-image: url(imagens/background002.jpg);
-    height: 96vh;
-
+footer {
+    background-color: aquamarine;
 }
 
