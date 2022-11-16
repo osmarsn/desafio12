@@ -1,10 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 html, body {
+    font-family: var(--fonte1);
     min-height: 100vh;
     background-color: darkgrey;
 }
@@ -16,6 +27,8 @@ header {
 }
 
 header h1 {
+    font-size: 10vh;/*funçao faz a fonte aumentar e diminuir quando a tela for maior ou menor*/
+    font-family: var(--fonte2);
     padding: 50px;
     font-variant: small-caps;
 }
@@ -40,6 +53,8 @@ header a:hover {
 }
 
 section {
+    font-size: 4vh;
+    font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -53,7 +68,8 @@ section.normal {
 
 section.imagem > p {
     background-color: black;
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 section.imagem {
